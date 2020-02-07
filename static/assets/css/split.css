@@ -194,6 +194,8 @@ body.page-template-page-fullsingle-split p {
   color: #47bec7;
 }
 .split-intro .tagline {
+  /* font-family: "Noto Sans KR"; */
+  font-size: 70px;
   color: #CCCCCC;
 }
 
