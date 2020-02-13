@@ -2,7 +2,7 @@
 
 Split is a single page, centrally-divided layout for a professional online presense with a big image or video left with alongside content. It is a port of [Split](//onepagelove.com/split) by [One Page Love](//onepagelove.com).
 
-This Hugo theme features an image or video visual section as well as a content section for your name, tagline, bio, and links.
+This Hugo theme features an image or video visual section as well as a content section for your name, slogan, bio, and links.
 
 ![Hugo Split Theme screenshot](https://raw.githubusercontent.com/escalate/hugo-split-theme/master/images/screenshot.png)
 
@@ -31,7 +31,7 @@ Take a look inside the [`exampleSite`](//github.com/escalate/hugo-split-theme/tr
 
 #### Homepage
 
-Add a file named `_index.md` inside content directory to create your homepage. Use TOML configuration elements to set `title` and `tagline` of your page. Simple write your content in markdown style.
+Add a file named `_index.md` inside content directory to create your homepage. Use TOML configuration elements to set `headline` and `slogan` of your page. Simple write your content in markdown style.
 
 
     $ hugo new content/_index.md
@@ -39,8 +39,8 @@ Add a file named `_index.md` inside content directory to create your homepage. U
 
 ```markdown
 +++
-title = "Jenny Jones"
-tagline = "Designer. Stylist. Nomad."
+headline = "Jenny Jones"
+slogan = "Designer. Stylist. Nomad."
 +++
 
 Donec at libero id lectus porta dapibus eu in nibh. Cras id mauris sapien. Fusce viverra [luctus urna]({{< ref "luctus-urna.md" >}}) ac rutrum. Duis semper elit eu mi facilisis eleifend. Donec semper, [ipsum in]({{< ref "ipsum-in.md" >}}) malesuada congue, [purus sem]({{< ref "purus-sem.md" >}}) ullamcorper massa, sit amet lacinia nibh enim sed massa.
@@ -57,7 +57,7 @@ You can create additional pages as usual inside content directory.
 
 ```markdown
 +++
-title = "luctus urna"
+headline = "luctus urna"
 +++
 
 Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc.

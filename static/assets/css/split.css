@@ -193,15 +193,17 @@ body.page-template-page-fullsingle-split p {
   letter-spacing: 0.4px;
   color: #47bec7;
 }
-.split-intro .tagline {
+.split-intro .slogan {
   /* font-family: "Noto Sans KR"; */
-  font-size: 70px;
+  font-size: 50px;
   color: #CCCCCC;
 }
 
 .split-bio {
   padding: 40px 0 20px 0;
-  font-family: "Lora", serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", Roboto, Helvetica, Arial, sans-serif; */
+  /* font-family: "Lora", serif; */
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 @media (max-width: 1200px) {
   .split-bio {
